@@ -3,6 +3,7 @@ This is an attempt to learn Django REST API with Test Driven Development practic
 
 # QoL Commands Here!
 To run tests:
+>Flake8 can be used to check for best coding practices in python programming. It can be ommitted.
 
     docker-compose run app sh -c "python manage.py test && flake8"
 

@@ -3,13 +3,12 @@ This is an attempt to learn Django REST API with Test Driven Development practic
 
 # QoL Commands Here!
 To run tests:
-    ```sh
-    docker-compose run app sh -c "python manage.py test && flake8"
-    ```
 
-!Important!
+    docker-compose run app sh -c "python manage.py test && flake8"
+
+
+!Important
 When there's a change in the models.py file, you need to run the migration command again.
 Migration is the instruction for Django to create the model in the real database.
-    ```sh
+
     docker-compose run app sh -c "python manage.py makemigrations core"
-    ```
